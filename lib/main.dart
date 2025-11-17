@@ -22,16 +22,17 @@ class Zaf extends StatelessWidget {
         scaffoldBackgroundColor: Colors.white,
         primarySwatch: Colors.blue,
       ),
-      initialRoute: '/splash',
-      routes: {
-        '/splash': (context) => const SplashScreen(),
-        '/onboarding': (context) => const OnboardingScreen(),
-        '/test': (context) => const Test(),
-        '/Auth': (context) => const Auth(),
+      home:  HomeScreen(),
+      //initialRoute: '/splash',
+      //routes: {
+       // '/splash': (context) => const SplashScreen(),
+       // '/onboarding': (context) => const OnboardingScreen(),
+       // '/test': (context) => const Test(),
+       // '/Auth': (context) => const Auth(),
 
-        '/home_page': (context) => HomePage(),
+       // '/home_page': (context) => HomePage(),
 
-      },
+     // },
 
     );
   }
